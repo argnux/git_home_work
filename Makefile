@@ -17,4 +17,4 @@ libmymath.a: math_lib.o
 	ar -rcs libmymath.a math_lib.o
 
 math_lib.o:
-	gcc -c math_lib/src/math_lib.c
+	gcc -c math_lib/src/math_lib.c -Imath_lib/inc
